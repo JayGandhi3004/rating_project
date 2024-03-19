@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "title": "wertyui",
+      "rating": "4",
+      "description": "wertyu",
+      "id": 1
+    },
+    {
+      "title": "vuhndo",
+      "rating": "5",
+      "description": "mkjpjpppn",
+      "id": 2
+    }
+  ]
+}
