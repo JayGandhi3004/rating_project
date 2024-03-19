@@ -31,7 +31,7 @@ export function* handlePostUser(action) {
             yield put({ type: POST_SUCCESS, data });
             swal({
                 title: "Good Job",
-                text: "User Add Successfully",
+                text: "Your data has been added.",
                 icon: "success",
             })
         } else {
@@ -52,8 +52,8 @@ export function* handleDeleteUser(action) {
         if (status === 200) {
             yield put({ type: DELETE_SUCCESS, data });
             swal({
-                title: "Good Job",
-                text: "User Delete Successfully",
+                title: "Deleted",
+                text: "Your data has been deleted.",
                 icon: "success",
             })
         } else {
